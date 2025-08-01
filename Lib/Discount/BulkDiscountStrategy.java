@@ -1,7 +1,9 @@
 package Lib.Discount;
+import Lib.*;
 
-import Lib.CartItem;
-
+/**
+ * กลยุทธ์ส่วนลด Bulk (ซื้อเยอะลดราคา)
+ */
 public class BulkDiscountStrategy implements DiscountStrategy{
 
     private final int minimumQuantity;

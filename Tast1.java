@@ -16,5 +16,6 @@ public class Tast1 {
         CartItem item1 = new CartItem(catalog.findById("P001"),2);
         CartItem item2 = new CartItem(b, 3);
 
+        
     }
 }
